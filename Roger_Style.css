@@ -1,0 +1,40 @@
+*{
+	background-color: #EBF4FA;	
+}
+
+.header-image{
+	height: 300px;
+	border-radius: 500px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+}
+
+.image-container {
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	color: #2B65EC;
+}
+
+h2 {
+	text-align: center;
+	color: #2B65EC;
+}
+
+.major_concept{
+	background-color: #294860;
+	border-radius: 40px;
+	color: black;
+	padding: 10px;
+	margin: 10px auto;
+}
+
+.content{
+	background-color: #DFEAF1;
+	padding: 4px;
+	margin: 10px;
+	border-radius: 4px;
+	color: black;
+}
