@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Roger's HTML Notes</title>
+  <meta charset="UTF-8">
+  <style>
+    *{
+      margin: 8px;
+      border: red solid 2px;
+      background-color: rgba(0,0,0,0.15);
+    }
+  </style>
+
+</head>
+
+<body>
+  <h1>Important Concepts to Remember</h1><br>
+
+  <div>
+    <h2>The Basics of the Web and HTML</h2>
+
+    <div>
+      <p><b><u>World Wide Web</u></b></p>
+      <p>The web is simply a vast number of computers
+        that communicate with each other using <em>HTTP</em> or <a href = "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol">Hypertext Transfer Protocol</a>.</p>
+    </div>
+
+    <div>
+      <p><b><u>HTML</u></b></p>
+      <p><em>HTML</em> stand for <a href = "https://en.wikipedia.org/wiki/HTML">Hypertext Markup Language</a>.
+        A majority of the content on the World Wide Web is made up of <em>HTML</em> documents.  These documents
+        can contain text, images, videos, etc. The text in a <em>HTML</em> document defines what the user sees and the
+        <b>markup</b> defines how the content appears and is arranged.</p>
+    </div>
+
+    <div>
+      <p><b><u>Tags and Elements</u></b></p>
+      <p>HTML documents consist of elements.  HTML tags tell the browser the type of element.
+        Elements are either <em>Inline</em> or <em>Block</em>. From the W3Schools <a href = "https://www.w3schools.com/html/html_blocks.asp">reference</a>:
+        an inline element does not start on a new line and only takes up as much width as necessary; while a block-level element always starts on a
+        new line and takes up the full width available (stretches out to the left and right as far as it can)</p>
+    </div>
+   </div>
+
+   <div>
+     <h2>Creating a Structured Document</h2>
+
+    <div>
+      <p><b><u>HTML-CSS-DOM</u></b></p>
+      <p>HTML is a language (syntax & rules).  The basic building blocks of an HTML document are tags.  Tags are interpreted by the browser (using DOM)
+        to create elements in a tree.  An element is an opening tag + content + closing tag.  CSS is a language that defines the style for each class of element.  For example:
+        all h1 elements w/ class = "article" should be red in color.</p>
+    </div>
+
+    <div>
+      <p><b><u>Boxes, Grids & Rules</u></b></p>
+      <p><em>Everything</em> on the web is boxes!  Boxes are easy to arrange and rearrange on a background page grid.</p>
+    </div>
+
+    <div>
+      <p><b><u>Boxify a Design</u></b></p>
+      <p>Start with one big box around the material.  Decompose the layout naturally with smaller and smaller subboxes.
+        This will make converting to HTML simpler.  <b><em>BIG to small</em></b>.</p>
+    </div>
+  </div>
+
+  <div>
+    <h2>Understanding CSS</h2>
+
+    <div>
+      <p><b><u>CSS Basics</u></b></p>
+      <p>CSS stands for <a href = "https://en.wikipedia.org/wiki/Cascading_Style_Sheets">Cascading Style Sheets</a>.  CSS defines the visible
+        style of your page by applying style to the page elements.  A useful analogy is the National Laws -> State Laws -> Municpality Laws -> House rules (most specific).  There are many
+        resources on the web that one can reference to understand CSS <a href = "https://css-tricks.com/how-css-selectors-work/">selectors</a>.  An excellent
+        MDN CSS <a href = "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">reference</a> is included.</p></div>
+
+    <div>
+      <p><b><u>Box Sizing and Positioning Summary</u></b></p>
+      <ul>
+        <li>Each box has four elements (content, padding, border, margin)</li>
+        <li>Set box sizes in terms of percentages rather than pixels or set the box-sizing attribute to border-box for every element.</li>
+        <li>Adding 'display: flex' will let divs appear next to each other.</li>
+      </ul>
+      </div>
+
+    <div>
+      <p><b><u>Code, Test, Refine</u></b></p>
+      <ul>
+        <li>Look for natural boxes</li>
+        <li>Look for repeated styles & semantic elements</li>
+        <li>Write your HTML</li>
+        <li>Apply Styles (from the biggest elements to the smallest)</li>
+        <li>Fix Things until page looks exactly like the given layout.</li>
+      </ul>
+      </div>
+
+    <div>
+      <p><b><u>DevTools</u></b></p>
+      <p>Changes made using DevTools are temporary; making changes in DevTools is a great way to experiment with your page; refreshing the browser reverts back to the original page.</p></div>
+  </div>
+
+  <div>
+    <h1>Developer Resources</h1>
+
+  <ul>
+    <li><a href = "https://developer.mozilla.org/en-US/docs/Web/HTML">Mozilla Developer Network - HTML</a></li>
+    <li><a href = "https://www.w3schools.com/">W3Schools HTML Tutorial</a><br></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Content_sectioning">Content Sectioning</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines#The_HTML5_Outline_Algorithm">Sections and Outlines of an HTML 5 Document</a></li>
+    <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Flex Boxes Reference</a></li>
+    <li><a href="http://validator.w3.org/#validate_by_input">HTML Validation Service</a></li>
+    <li><a href="http://jigsaw.w3.org/css-validator/#validate_by_input">CSS Validation Service</a></li>
+  </div>
+</html>
