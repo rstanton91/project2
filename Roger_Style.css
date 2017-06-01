@@ -2,11 +2,15 @@
 	background-color: #EBF4FA;	
 }
 
+body{
+	font-family: Garamond;
+}
+
 .header-image{
-	height: 300px;
-	border-radius: 500px;
-	-webkit-border-radius: 150px;
-	-moz-border-radius: 150px;
+	height: 250px;
+	border-radius: 100px;
+	-webkit-border-radius: 250px;
+	-moz-border-radius: 250px;
 }
 
 .image-container {
@@ -24,6 +28,7 @@ h2 {
 }
 
 .major_concept{
+	text-align: left;
 	background-color: #294860;
 	border-radius: 40px;
 	color: black;
