@@ -25,21 +25,30 @@ h1 {
 h2 {
 	text-align: center;
 	color: #2B65EC;
+	background-color: rgb(200,200,200);
+}
+
+h3{
+	text-align: center;
+	color: black;
 }
 
 .major_concept{
 	text-align: left;
-	background-color: #294860;
-	border-radius: 40px;
+	background-color: rgb(200,200,200);
 	color: black;
 	padding: 10px;
 	margin: 10px auto;
 }
 
 .content{
-	background-color: #DFEAF1;
+	background-color: #EBF4FA;
 	padding: 4px;
 	margin: 10px;
 	border-radius: 4px;
 	color: black;
+}
+
+.resources{
+	list-style-type: none;
 }
